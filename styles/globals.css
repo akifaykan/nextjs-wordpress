@@ -14,3 +14,27 @@ a {
 * {
   box-sizing: border-box;
 }
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ol:not([class]),
+ul:not([class]) {
+    margin-bottom: 1em;
+    margin-left: 1.4em;
+}
+ol:not([class]) li,
+ul:not([class]) li {
+    line-height: 1.4;
+    color: #444;
+    margin-bottom: 5px;
+}
+ul:not([class]) li {
+    list-style-type: disc;
+}
+ol:not([class]) li {
+    list-style-type: decimal;
+}
